@@ -80,7 +80,7 @@ const Hero = () => {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://drive.google.com/file/d/1jz6UIhHe6U4Q5PRQ7NHn2FqHbI9VwmWT/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1Ugfnx_2fD8B1lL0AsimzmA-iuJvobdR2/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition duration-300"
