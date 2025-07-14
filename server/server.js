@@ -15,12 +15,15 @@ app.use(cors({
      credentials: true
 }))
 app.use(express.json())
-app.use(clerkMiddleware())
 
 app.get('/', (req, res)=>res.send('Server is Live!'));
 app.head('/', (req, res) => {
   res.status(200).end(); 
 });
+
+app.use(clerkMiddleware())
+
+
 
 
 app.use(requireAuth())
