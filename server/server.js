@@ -11,7 +11,7 @@ const app = express()
 await connectCloudinary()
 
 app.use(cors({
-    origin:"https://autocraft-ai.vercel.app",
+    origin:["https://autocraft-ai.vercel.app","https://autocraft-bd2i0hy4o-devkaran-jawals-projects.vercel.app"],
      credentials: true
 }))
 app.use(express.json())
